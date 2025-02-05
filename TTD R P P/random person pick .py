@@ -9,7 +9,31 @@ people_data = [
     {"name": "Vikram Singh", "age": random.randint(18, 50), "city": "Delhi", "id": f"ID{random.randint(1000, 9999)}"},
     {"name": "Sneha Menon", "age": random.randint(18, 50), "city": "Kochi", "id": f"ID{random.randint(1000, 9999)}"},
     {"name": "Ravi Desai", "age": random.randint(18, 50), "city": "Pune", "id": f"ID{random.randint(1000, 9999)}"},
-    {"name": "Anjali Gupta", "age": random.randint(18, 50), "city": "Lucknow", "id": f"ID{random.randint(1000, 9999)}"},
+    {"name": "Anjali Gupta", "age": random.randint(18, 50import random
+
+# Define a function to generate people data
+def generate_people_data(num_people):
+    people_data = []
+    for _ in range(num_people):
+        person = {
+            "name": f"Person {_+1}",
+            "age": random.randint(18, 50),
+            "city": random.choice(["Bangalore", "Mumbai", "Hyderabad", "Chennai", "Delhi"]),
+            "id": f"ID{random.randint(1000, 9999)}"
+        }
+        people_data.append(person)
+    return people_data
+
+# Generate people data
+people_data = generate_people_data(50)
+
+# Randomly select 10 people
+selected_people = random.sample(people_data, 10)
+
+# Display the selected people
+print("\nThe randomly selected 10 people are:")
+for person in selected_people:
+    print(f"Name: {person['name']}, Age: {person['age']}, City: {person['city']}, ID: {person['id']}")), "city": "Lucknow", "id": f"ID{random.randint(1000, 9999)}"},
     {"name": "Neelam Joshi", "age": random.randint(18, 50), "city": "Jaipur", "id": f"ID{random.randint(1000, 9999)}"},
     {"name": "Suresh Babu", "age": random.randint(18, 50), "city": "Madurai", "id": f"ID{random.randint(1000, 9999)}"},
     {"name": "Vani Srinivasan", "age": random.randint(18, 50), "city": "Chennai", "id": f"ID{random.randint(1000, 9999)}"},
@@ -59,3 +83,4 @@ selected_people = random.sample(people_data, 10)
 print("\nThe randomly selected 10 people are:")
 for person in selected_people:
     print(f"Name: {person['name']}, Age: {person['age']}, City: {person['city']}, ID: {person['id']}")
+
