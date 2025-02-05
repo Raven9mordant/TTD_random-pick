@@ -1,10 +1,10 @@
-# TTD_random-pick
+# TTD_Random-Piligrim-picker
 
 Randomly pick N req number of people from the total
 
 Random People Selector
 
-This Python script randomly selects 10 individuals from a predefined list of 40 people. Each person is represented by a dictionary containing their name, age, city, and a randomly generated ID. The script outputs the details of the selected individuals to the console.
+This Python script randomly selects n individuals from a predefined list of 40 people. Each person is represented by a dictionary containing their name, age, city, and a randomly generated ID. The script outputs the details of the selected individuals to the console.
 
 Features
 
