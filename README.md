@@ -38,4 +38,5 @@ Dependencies
 NOTE :-This script doesn't require any external libraries other than Python's built-in random module.
 
 
-#CHALLENGES 3 MONTHS RULE
+#CHALLENGES-- 3 MONTHS RULE
+SELECTED PILGRIMS Should Not Be Repicked for the Next 3 Months
