@@ -11,7 +11,8 @@ Features
 Random selection of 10 individuals from a list of 40.
 Display details of selected individuals including their name, age, city, and ID.
 Uses Python's random module for generating random values.
-<img width="1114" alt="image" src="https://github.com/user-attachments/assets/34ddaa01-0a73-4da7-8a03-c4b97cbdeabb" />
+<img width="1386" alt="image" src="https://github.com/user-attachments/assets/6ae8f1fa-0539-41a7-af9a-6159251bef7a" />
+
 
 How to Use
 Ensure you have Python installed on your machine. You can check this by running:
@@ -24,7 +25,8 @@ This will display the details of the 10 randomly selected people.
 Example Output
 
 The randomly selected 10 people are:
-<img width="1114" alt="image" src="https://github.com/user-attachments/assets/d8f953af-ef3d-4b44-9633-d2b8f5f65a04" />
+<img width="1218" alt="image" src="https://github.com/user-attachments/assets/a8e73427-9fcb-4a94-995e-07a8566448b2" />
+
 
 How It Works
 
