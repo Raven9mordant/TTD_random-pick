@@ -15,9 +15,9 @@ Uses Python's random module for generating random values.
 
 
 How to Use
-Ensure you have Python installed on your machine. You can check this by running:
+lets install python on your system. we can check this by running:
       python --version
-If you don't have Python installed, you can download and install it from python.org.
+If we don't have Python installed, we can download and install it from python.org.
 Run the script:
       python random_people_selector.py
 This will display the details of the 10 randomly selected people.
