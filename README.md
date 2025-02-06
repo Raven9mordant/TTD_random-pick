@@ -36,3 +36,6 @@ The details of the selected individuals are printed to the console.
 Dependencies
 
 NOTE :-This script doesn't require any external libraries other than Python's built-in random module.
+
+
+#CHALLENGES 3 MONTHS RULE
