@@ -32,11 +32,13 @@ How It Works
 
 A list of dictionaries represents a group of people with attributes like name, age, city, and id.
 The script uses the random.sample() function to randomly select 10 people from the list.
-The details of the selected individuals are printed to the console.
+The details of the 
+selected individuals are printed to the console.
 Dependencies
 
 NOTE :-This script doesn't require any external libraries other than Python's built-in random module.
 
 
 #CHALLENGES-- 3 MONTHS RULE
+
 SELECTED PILGRIMS Should Not Be Repicked for the Next 3 Months
