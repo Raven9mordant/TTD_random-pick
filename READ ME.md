@@ -1,4 +1,4 @@
-# Python TTD Random Pilgrim Picker
+# TTD Random Pilgrim Picker
 
 ## 📌 Project Overview
 The **Python TTD Random Pilgrim Picker** is a tool designed to randomly select a specified number of pilgrims while ensuring that the same individuals are not selected again within a 3-month period. The project uses **SQLite** as a database to store selections and a **Flask-based web interface** to display results.
